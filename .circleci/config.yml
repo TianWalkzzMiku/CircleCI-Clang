@@ -5,7 +5,6 @@ jobs:
       - image: xyzuan/xdocker:latest
     steps:
       - run:
-          name: llvm-tc-compiler
           command: |
            sudo apt install openssh-server screen python git openjdk-8-jdk android-tools-adb bc bison \
            build-essential curl flex g++-multilib gcc-multilib gnupg gperf imagemagick lib32ncurses-dev \
