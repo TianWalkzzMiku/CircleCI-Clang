@@ -1,5 +1,9 @@
 version: rev1.5_template
 jobs:
+dependencies:
+  cache_directories:
+    - "~/.ccache"
+    - "llvm"
   build:
     docker:
       - image: xyzuan/xdocker:latest
