@@ -1,7 +1,7 @@
 version: 2.1
 jobs:
-    compile:
-    docker:
+  compile:
+  docker:
       - image: xyzuan/xdocker:latest
     steps:
       - run:
