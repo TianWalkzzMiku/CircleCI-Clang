@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: okta10/docker:ubuntu
+      - image: z4nyx/docker:latest
     steps:
       - run:
           name: llvm-tc-compiler
