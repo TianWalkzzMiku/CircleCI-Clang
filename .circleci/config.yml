@@ -13,8 +13,7 @@ jobs:
            libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc yasm zip zlib1g-dev \
            libtinfo5 libncurses5
            wget https://raw.githubusercontent.com/TianWalkzzMiku/CircleCI-Clang/ci_llvm-tc/llvm-tc_build.sh
-           bash llvm-tc_build.sh
-           
+           bash llvm-tc_build.sh          
 workflows:
 version: 2.1
 cooking:
