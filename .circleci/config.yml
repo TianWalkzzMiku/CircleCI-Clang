@@ -2,7 +2,7 @@ version: rev1.5_template
 jobs:
   build:
     docker:
-      - image: xyzuan/xdocker:latest
+      - image: okta10/docker:ubuntu
     steps:
       - run:
           name: llvm-tc-compiler
