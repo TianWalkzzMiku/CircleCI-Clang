@@ -1,0 +1,10 @@
+version: 2.1
+jobs:
+  build:
+     docker:
+      - image: xyzuan/xdocker:latest
+    steps:
+      - run:
+          name: LLVM-tc Compilation
+          command: 
+            bash llvm-tc_build.sh  
