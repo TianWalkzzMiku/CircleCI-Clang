@@ -1,4 +1,4 @@
-version: 2.1
+version: rev1.5_template
 jobs:
   build:
     docker:
