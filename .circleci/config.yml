@@ -7,5 +7,5 @@ jobs:
       - run:
           name: llvm-tc-compiler
           command: |
-          wget https://raw.githubusercontent.com/TianWalkzzMiku/CircleCI-Clang/ci_llvm-tc/llvm-tc_build.sh
-          bash llvm-tc_build.sh
+           wget https://raw.githubusercontent.com/TianWalkzzMiku/CircleCI-Clang/ci_llvm-tc/llvm-tc_build.sh
+           bash llvm-tc_build.sh
